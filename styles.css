@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+* {
+	box-sizing: border-box;
+}
+.holder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.item {
+	flex: 0 0 auto;
+	max-width:100%;
+	width:16.6667%;
+	min-height: 40px;
+	background-color: green;
+}
